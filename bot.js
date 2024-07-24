@@ -9,7 +9,9 @@ const token = '7405985844:AAH9O_b2L11JrSDn9wLUxxpuaeXafKYsfPk';
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
-  const chatId = msg.chat.id; // Corrected variable name
+  const chatId = msg.chat.id;
+      console.log(chatId)
+// Corrected variable name
   bot.sendMessage(chatId, 'SHOP', {
     reply_markup: {
       inline_keyboard: [
