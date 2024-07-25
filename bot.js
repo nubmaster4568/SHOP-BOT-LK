@@ -18,7 +18,7 @@ bot.onText(/\/start/, (msg) => {
         [
           {
             text: 'SHOP',
-            web_app: { url: `https://lk-rt5d.onrender.com/index.html?userId=${chatId}` }
+            web_app: { url: `https://lk-1uev.onrender.com/index.html?userId=${chatId}` }
           }
         ]
       ]
